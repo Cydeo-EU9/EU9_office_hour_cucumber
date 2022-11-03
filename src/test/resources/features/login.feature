@@ -3,15 +3,28 @@ Feature: Library app login feature
   As a user, I should be able to login with correct
   credentials to different accounts
 
-  Scenario: login is student
+  Background:
     Given user is on login page
+
+#  @wip
+  Scenario: login is student
     When user enters username
     And user enters password
     Then user should be on student dashboard
 
-
+#@wip
   Scenario: login is librarian
-    Given user is on login page
     When user enters username
     And user enters password
     Then user should be on librarian dashboard
+
+  Scenario: login as different roles
+    When user enters "Student" username
+    And user enters "Student" password
+    Then user should be on "Student" dashboard
+
+  @wip
+  Scenario: login as different roles
+    When user enters "Librarian" username
+    And user enters "Librarian" password
+    Then user should be on "Librarian" dashboard
