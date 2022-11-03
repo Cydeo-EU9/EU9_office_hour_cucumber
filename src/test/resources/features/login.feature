@@ -17,13 +17,13 @@ Feature: Library app login feature
     When user enters username
     And user enters password
     Then user should be on librarian dashboard
-@wip
+#  @wip
   Scenario: login as different roles
     When user enters "Student" username
     And user enters "Student" password
-    Then user should be on "Student" dashboard
+    Then user should be on "Student1111111" dashboard
 
-  @wip
+#  @wip
   Scenario: login as different roles
     When user enters "Librarian" username
     And user enters "Librarian" password

@@ -64,10 +64,10 @@ public class LoginStepDef {
         String actual = "";
         if (role.equals("Student")) {
             actual = loginPage.studentRole.getText();
-            Assert.assertTrue(actual.contains("Student"));
+            Assert.assertTrue(actual.contains(role));
         }else if(role.equals("Librarian")){
             actual = loginPage.studentRole.getText();
-            Assert.assertTrue(actual.contains("Librarian"));
+            Assert.assertEquals(actual,role);
         }
         Driver.closeDriver();
 
