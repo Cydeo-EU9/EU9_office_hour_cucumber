@@ -59,15 +59,17 @@ public class LoginStepDef {
 
     }
     @Then("user should be on {string} dashboard")
-    public void user_should_be_on_dashboard(String role) {
+    public void user_should_be_on_dashboard(String role) throws InterruptedException {
+        Thread.sleep(3000);
         String actual = "";
         if (role.equals("Student")) {
             actual = loginPage.studentRole.getText();
-            Assert.assertEquals(actual,"Student");
+            Assert.assertTrue(actual.contains("Student"));
         }else if(role.equals("Librarian")){
             actual = loginPage.studentRole.getText();
-            Assert.assertEquals(actual,"Librarian");
+            Assert.assertTrue(actual.contains("Librarian"));
         }
+        Driver.closeDriver();
 
     }
 
