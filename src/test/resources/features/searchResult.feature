@@ -1,6 +1,6 @@
 Feature: user search page
 
-  @wip
+#  @wip
   Scenario: Table columns names
     Given user is on login page
     And I login as a librarian
