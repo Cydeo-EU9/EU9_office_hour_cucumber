@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f758d7-8315-4c1d-a6d3-46cd3f31e369" name="Changes" comment="project updated">
-      <change afterPath="$PROJECT_DIR$/sample.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/ExcelReadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginWithDifferentUsersStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/loginWithDifferentUsers.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sample.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/searchResult.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/searchResult.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/ExcelReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/ExcelReadData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExcelReadData.readData">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Scenario: Table columns names" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/searchResult.feature" />
@@ -120,6 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelReadData.writeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_office_hour_cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step_definitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="step_definitions.ExcelReadData" />
+      <option name="METHOD_NAME" value="writeData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_office_hour_cucumber" />
       <extension name="coverage">
@@ -137,8 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExcelReadData.readData" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.ExcelReadData.writeData" />
+        <item itemvalue="JUnit.ExcelReadData.readData" />
         <item itemvalue="Cucumber Java.Scenario: Table columns names" />
         <item itemvalue="JUnit.FailedTestRunner" />
       </list>
@@ -156,7 +171,7 @@
       <workItem from="1667463182725" duration="10100000" />
       <workItem from="1667982803211" duration="750000" />
       <workItem from="1668016474305" duration="9000" />
-      <workItem from="1668065424603" duration="6413000" />
+      <workItem from="1668065424603" duration="9401000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber for office hour is created.">
       <created>1666291719759</created>
@@ -200,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667502141503</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="project updated">
+      <created>1668106197054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668106197054</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
